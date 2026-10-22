@@ -1,15 +1,4 @@
+data/*.json
 warehouse.db
 __pycache__/
-*.pyc
 .venv/
-.env
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-.DS_Store
-.idea/
-.vscode/
-outputs/*.png
-outputs/*.md
-*.csv
-*.pkl

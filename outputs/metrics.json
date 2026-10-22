@@ -1,0 +1,118 @@
+{
+  "dataset": {
+    "name": "Warehouse and Retail Sales, Montgomery County MD open data (Socrata v76h-r7br)",
+    "source": "https://data.montgomerycountymd.gov/resource/v76h-r7br.json",
+    "publisher_note": "Montgomery County publishes this dataset as open data for public use. Sales recorded by the county's own Alcohol Beverage Services, a control jurisdiction.",
+    "year_used": 2019,
+    "rows": 138638,
+    "items": 23698,
+    "units": "units sold as recorded by the county (bottles and cases as recorded per item; the dataset does not separate them, and neither does this analysis)",
+    "channels": "rtl_sales is the county's own retail stores, whs_sales is warehouse sales to licensees",
+    "dropped": "No margin or revenue analysis: this dataset has no price, cost or revenue fields."
+  },
+  "totals": {
+    "retail_units": 959931.15,
+    "warehouse_units": 3613090.83849,
+    "transfer_units": 957382.4,
+    "total_sales_units": 4573021.98849
+  },
+  "by_type": [
+    {
+      "item_type": "BEER",
+      "retail_units": 262527.05,
+      "warehouse_units": 2961120.29562,
+      "total_units": 3223647.34562,
+      "items": 3438,
+      "retail_share_pct": 8.14378937437738,
+      "share_of_total_pct": 70.49271474604127
+    },
+    {
+      "item_type": "WINE",
+      "retail_units": 325084.79,
+      "warehouse_units": 533280.10116,
+      "total_units": 858364.89116,
+      "items": 15074,
+      "retail_share_pct": 37.87256367867962,
+      "share_of_total_pct": 18.770189457222138
+    },
+    {
+      "item_type": "LIQUOR",
+      "retail_units": 357058.07,
+      "warehouse_units": 49479.56674,
+      "total_units": 406537.63674,
+      "items": 3462,
+      "retail_share_pct": 87.8290317381747,
+      "share_of_total_pct": 8.889912136071702
+    },
+    {
+      "item_type": "KEGS",
+      "retail_units": 0.0,
+      "warehouse_units": 57078.0,
+      "total_units": 57078.0,
+      "items": 1585,
+      "retail_share_pct": 0.0,
+      "share_of_total_pct": 1.2481461961840907
+    },
+    {
+      "item_type": "NON-ALCOHOL",
+      "retail_units": 13984.73,
+      "warehouse_units": 12132.87497,
+      "total_units": 26117.60497,
+      "items": 103,
+      "retail_share_pct": 53.54522367599773,
+      "share_of_total_pct": 0.5711235379085497
+    },
+    {
+      "item_type": "STR_SUPPLIES",
+      "retail_units": 1276.51,
+      "warehouse_units": 0.0,
+      "total_units": 1276.51,
+      "items": 23,
+      "retail_share_pct": 100.0,
+      "share_of_total_pct": 0.027913926572251196
+    }
+  ],
+  "largest_type_row": {
+    "item_type": "BEER",
+    "retail_units": 262527.05,
+    "warehouse_units": 2961120.29562,
+    "total_units": 3223647.34562,
+    "items": 3438,
+    "retail_share_pct": 8.14378937437738,
+    "share_of_total_pct": 70.49271474604127
+  },
+  "liquor_row": {
+    "item_type": "LIQUOR",
+    "retail_units": 357058.07,
+    "warehouse_units": 49479.56674,
+    "total_units": 406537.63674,
+    "items": 3462,
+    "retail_share_pct": 87.8290317381747,
+    "share_of_total_pct": 8.889912136071702
+  },
+  "adjustments_not_in_sales": [
+    {
+      "item_type": "DUNNAGE",
+      "units": -57465.0
+    },
+    {
+      "item_type": "REF",
+      "units": -11995.95
+    }
+  ],
+  "peak_month": {
+    "month": 5,
+    "total_units": 484317.1533
+  },
+  "top_item": {
+    "item_description": "CORONA EXTRA LOOSE NR - 12OZ",
+    "item_type": "BEER",
+    "total_units": 154378.79163
+  },
+  "top_supplier": {
+    "supplier": "CROWN IMPORTS",
+    "total_units": 823111.74253,
+    "items": 64
+  },
+  "runtime_seconds": 2.6
+}
